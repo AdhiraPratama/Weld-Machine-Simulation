@@ -1,5 +1,7 @@
 Wiring Koneksi
+
 RFID Reader (MFRC522)
+
 VCC -> 3.3V
 GND -> GND
 RST -> GPIO 22
@@ -7,13 +9,19 @@ SDA (SS) -> GPIO 21
 MOSI -> GPIO 23
 MISO -> GPIO 19
 SCK -> GPIO 18
+
 LED
+
 Red LED (Anode) -> GPIO 25 -> Resistor (220Ω) -> GND (Cathode)
 Green LED (Anode) -> GPIO 26 -> Resistor (220Ω) -> GND (Cathode)
 Yellow LED (Anode) -> GPIO 27 -> Resistor (220Ω) -> GND (Cathode)
+
 Button
+
 One side -> GND
 Other side -> GPIO 33 (use internal pull-up)
+
 Buzzer
+
 Anode -> GPIO 5
 Cathode -> GND
